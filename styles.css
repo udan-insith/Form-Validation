@@ -83,5 +83,62 @@ body {
 
 .input-container {
     display: block;
-    padding: 20px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+/* INPUT ELEMENTS */
+input {
+    padding: 10px 8px;
+    margin: 5px 0;
+    border-radius: 13px 15px;
+    border: none;
+    width: 60%;
+}
+
+input:hover {
+    background-color: #ffffffe0;
+}
+
+input[type="text"] {
+
+}
+
+/* BUTTON STYLES */
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 7px 0;
+    margin: 5px 10px;
+    border-radius: 15px;
+    display: block;
+    width: 60%;
+    border: none;
+    font-size: 1.2rem;
+    font-family: var(--ff-secondary);
+    color: white;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: var(--clr-green-light);
+}
+.login-btn:hover {
+    background-color: var(--clr-green-dark);
+}
+
+.clear-btn {
+    background-color: var(--clr-red-light);
+}
+.clear-btn:hover {
+    background-color: var(--clr-red-dark);
 }
