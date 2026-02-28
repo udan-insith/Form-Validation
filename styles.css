@@ -104,9 +104,6 @@ input:hover {
     background-color: #ffffffe0;
 }
 
-input[type="text"] {
-
-}
 
 /* BUTTON STYLES */
 .button-container {
@@ -127,6 +124,7 @@ button {
     font-family: var(--ff-secondary);
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .login-btn {
